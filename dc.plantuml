@@ -1,0 +1,37 @@
+@startuml dc
+
+skinparam classAttributeIconSize 0
+
+hide circle
+hide empty methods
+
+Entreprise "1" -- "*" Artisan : Gérer
+Entreprise "1" -- "*" Chantier : Posséder
+Chantier "*" -- "*" Artisan 
+(Artisan, Chantier) .. Affecter
+
+Class Entreprise {
+    specialiteE
+    nbEmployés
+}
+
+Class Chantier {
+    dateDeb
+    dateFin
+    adresseC
+}
+
+Class Artisan {
+    nom
+    coordonnées
+    spécialité
+}
+
+Class Affecter {
+    nombreHeures
+    debMission
+    finMission
+    getPayeArtisan()
+}
+
+@enduml
