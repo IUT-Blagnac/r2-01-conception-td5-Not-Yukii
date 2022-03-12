@@ -1,0 +1,25 @@
+@startuml UC
+
+usecase gerer as "Gérer"
+usecase gererA as "Gérer un artisan"
+usecase gererC as "Gérer un chantier"
+usecase calculer as "Calculer la paye \n d'un artisan"
+usecase affecter as "Affecter un artisan \n à un chantier"
+
+actor Artisan
+actor Entreprise 
+
+'Pour aligner les 2 acteurs :
+gererA -[hidden]-> gererC
+
+Entreprise -> gerer
+gerer <|- gererA
+gerer <|- gererC
+gererA -> Artisan
+Entreprise -left-> calculer
+Entreprise -up-> affecter
+affecter -> Artisan
+
+skinparam Linetype polyline
+
+@enduml
