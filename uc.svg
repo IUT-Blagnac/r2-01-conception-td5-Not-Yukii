@@ -1,1 +1,66 @@
-undefined
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="299px" preserveAspectRatio="none" style="width:706px;height:299px;background:#FFFFFF;" version="1.1" viewBox="0 0 706 299" width="706px" zoomAndPan="magnify"><defs/><g><g id="elem_gerer"><ellipse cx="381.1638" cy="157.0812" fill="#F1F1F1" rx="40.6638" ry="14.5812" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="358.0122" y="160.7432">Gérer</text></g><g id="elem_gererA"><ellipse cx="535.0591" cy="157.1118" fill="#F1F1F1" rx="78.5591" ry="18.1118" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="475.3328" y="160.6525">Gérer un artisan</text></g><g id="elem_gererC"><ellipse cx="458.1379" cy="274.0276" fill="#F1F1F1" rx="83.1379" ry="19.0276" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="394.5914" y="277.0594">Gérer un chantier</text></g><g id="elem_calculer"><ellipse cx="100.0075" cy="157.174" fill="#F1F1F1" rx="94.0075" ry="26.174" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="39.0075" y="152.7731">Calculer la paye</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="57.5075" y="169.07">d'un artisan</text></g><g id="elem_affecter"><ellipse cx="470.2225" cy="32.2522" fill="#F1F1F1" rx="110.7225" ry="26.2522" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="397.7225" y="27.8513">Affecter un artisan</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="422.7225" y="44.1482">à un chantier</text></g><!--MD5=[11468c77767568c9efff235ac1ebc746]
+entity Artisan--><g id="elem_Artisan"><ellipse cx="674" cy="127.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M674,135.5 L674,162.5 M661,143.5 L687,143.5 M674,162.5 L661,177.5 M674,162.5 L687,177.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="648.5" y="191.9951">Artisan</text></g><!--MD5=[4206b647878100e6066f92523e03a5d6]
+entity Entreprise--><g id="elem_Entreprise"><ellipse cx="267" cy="127.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M267,135.5 L267,162.5 M254,143.5 L280,143.5 M267,162.5 L254,177.5 M267,162.5 L280,177.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="229" y="191.9951">Entreprise</text></g><!--MD5=[fe7f845f06858528e578e32b7d8df63d]
+link gererA to gererC--><!--MD5=[b7398601e4d0c01642d92da7313416b8]
+link Entreprise to gerer--><g id="link_Entreprise_gerer"><path d="M305.109,157 C306.666,157 324.547,157 335.179,157 " fill="none" id="Entreprise-to-gerer" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="340.19,157,331.19,153,335.19,157,331.19,161,340.19,157" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8727aa024c8133bf723bc9a6fb7c71da]
+reverse link gerer to gererA--><g id="link_gerer_gererA"><path d="M442.062,157 C446.758,157 451.591,157 456.497,157 " fill="none" id="gerer-backto-gererA" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="441.945,164,421.945,157,441.945,150,441.945,164" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4913d2d716c8d5b9e23438dd1a58cda4]
+reverse link gerer to gererC--><g id="link_gerer_gererC"><path d="M401.16,188.109 C415.406,209.3855 434.023,237.1902 445.998,255.0747 " fill="none" id="gerer-backto-gererC" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="395.144,191.705,389.833,171.192,406.777,183.916,395.144,191.705" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6599c63fa18c915b8349f0b67e6d1d73]
+link gererA to Artisan--><g id="link_gererA_Artisan"><path d="M613.513,157 C621.42,157 627.667,157 627.667,157 C627.667,157 634.533,157 642.978,157 " fill="none" id="gererA-to-Artisan" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="648.394,157,639.394,153,643.394,157,639.394,161,648.394,157" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a13b653fdd98857cda7d9a2c6b930296]
+reverse link calculer to Entreprise--><g id="link_calculer_Entreprise"><path d="M199.203,157 C206.273,157 211.333,157 211.333,157 C211.333,157 219.161,157 228.947,157 " fill="none" id="calculer-backto-Entreprise" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="194.025,157,203.025,161,199.025,157,203.025,153,194.025,157" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c546c8fed6cfcd11aaa30ab97f41a988]
+reverse link affecter to Entreprise--><g id="link_affecter_Entreprise"><path d="M424.66,59.871 C381.471,84.991 323,119 323,119 C323,119 315.125,124.203 305.281,130.707 " fill="none" id="affecter-backto-Entreprise" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="429.052,57.317,419.2613,58.3856,424.7303,59.8315,423.2844,65.3004,429.052,57.317" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d460ce6e49b65cba4f7f28f8fbe5d7f5]
+link affecter to Artisan--><g id="link_affecter_Artisan"><path d="M513.994,56.863 C561.663,82.178 631,119 631,119 C631,119 637.078,124.23 644.665,130.758 " fill="none" id="affecter-to-Artisan" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="648.49,134.049,644.2772,125.1466,644.7001,130.7876,639.059,131.2105,648.49,134.049" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d8b473ed6b674110bd1ca5624a05f165]
+@startuml
+usecase gerer as "Gérer"
+usecase gererA as "Gérer un artisan"
+usecase gererC as "Gérer un chantier"
+usecase calculer as "Calculer la paye \n d'un artisan"
+usecase affecter as "Affecter un artisan \n à un chantier"
+
+actor Artisan
+actor Entreprise 
+
+'Pour aligner les 2 acteurs :
+gererA -[hidden]-> gererC
+
+Entreprise -> gerer
+gerer <|- gererA
+gerer <|- gererC
+gererA -> Artisan
+Entreprise -left-> calculer
+Entreprise -up-> affecter
+affecter -> Artisan
+
+skinparam Linetype polyline
+@enduml
+
+@startuml
+usecase gerer as "Gérer"
+usecase gererA as "Gérer un artisan"
+usecase gererC as "Gérer un chantier"
+usecase calculer as "Calculer la paye \n d'un artisan"
+usecase affecter as "Affecter un artisan \n à un chantier"
+
+actor Artisan
+actor Entreprise 
+
+gererA -[hidden]-> gererC
+
+Entreprise -> gerer
+gerer <|- gererA
+gerer <|- gererC
+gererA -> Artisan
+Entreprise -left-> calculer
+Entreprise -up-> affecter
+affecter -> Artisan
+
+skinparam Linetype polyline
+@enduml
+
+PlantUML version 1.2022.3beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
